@@ -10,7 +10,7 @@
 <body>
 
 <header class="header">
-  <div class="logo">Angel</div>
+  <button class="logo-btn" onclick="location.href='index.html'">Angel</button>
 
   <nav class="nav" id="nav-menu">
     <a href="#home">Home</a>
@@ -37,72 +37,140 @@
 </header>
 
   <section class="home section" id="home">
+    
     <div class="home-left">
-       <h2 class="fadeInDown sos">Hey there! I'm Angel</h2>
-        <p class="fadeInUp sos delay-1">
-         Aspiring web developer learning HTML, CSS, and JavaScript.
+       <h2 class="fadeInDown sos delay-2">Hey there! I'm Angel</h2>
+        <p class="fadeInUp sos delay-2">
+        I’m an IT student and aspiring web developer, currently learning HTML, CSS, and JavaScript.
     </p>
+    <a href="#projects" class="btn-project primary fadeInUp sos delay-2">
+      View My Work
+    </a>
+    <a href="#contact" class="btn-contact primary fadeInUp sos delay-2">
+      Get In Touch 
+    </a>
   </div>
-
      <div class="home-right">
       <img src="portfoliopic.jpg" class="fadeInRight sos delay-2">
   </div>
 </section>
- 
+
   <section id="about" class="section">
-      <h2 class="fadeInDown sos">About Me</h2>
+      <h2 class="fadeInDown sos"></h2>
+  <section class="about ">
+      <div class="heading fadeInDown sos">
+       <h2>About me</h2>
+        <p>A summary of what I do</p>
+  </div>
 
-      <div class="about-container">
-      <img src="portfoliopic.jpg" class="about-img fadeInLeft sos delay-1">
+  <div class="about-content fadeInUp sos">
+    <div class="photo">
+      <img src="portfoliopic.jpg" alt="Angel">
+    </div>
+    
+    <div class="panels fadeInUp sos delay-3">
+      <div class="panel">
+        <h3>Who I Am</h3>
+        <p>I'm Angel, an IT student. My journey into tech started with hesitation, but curiosity quickly grew into passion. 
+          Today, I'm focused on building my skills in HTML, CSS, and JavaScript.</p>
+      </div>
 
-      <div class="about-text fadeInRight sos delay-2">
-      <p>I’m Angel, an IT student and aspiring web developer. My journey into tech started with hesitation, but curiosity quickly grew into passion. 
-        Today, I’m focused on building my skills in HTML, CSS, and JavaScript while completing my degree and on-the-job training. </p>
-       <p>Beyond coding, I enjoy exploring and experimenting with creative layouts, and finding ways to make digital experiences more engaging. 
-        I’m driven by the idea of turning challenges into opportunities and growing into the developer I want to become</p>
-      <p> When I’m not coding, I love spending time with my dog, learning new design trends, and reflecting on how far I’ve come. 
-        A fun fact about me: I once thought web development wasn’t for me, but now it’s the path I’m most excited to pursue.</p>
-      <p>My personal motto is: <strong>“People will judge you anyway, so do what you want.”</strong></p>
+      <div class="panel">
+        <h3>Interests & Hobbies</h3>
+        <p> I’m driven by the idea of turning challenges into opportunities and growing into the developer I want to become</p>
+      <p> When I’m not coding, I love spending time with my cats and dogs, play games, and read.</p>
+      </div>
+
+      <div class="panel">
+        <h3>Fun Fact</h3>
+       <p> A fun fact about me:</b>  I once thought web development wasn’t for me, but now it’s the path I’m most excited to learn and pursue</p>
+        <p>My personal motto is: “People will judge you anyway, so do what you want.”</p>
+      </div>
     </div>
   </div>
 </section>
+</section>
 
   <section id="skills" class="section">
-    <h2 class="fadeInDown sos">Skills</h2>
-
-     <div class="skills-wrapper">
-      <div class="skills-container">
-
-      <div class="skill-card fadeInUp sos delay-1">
-        <img src="assets/html5.svg">
-        <p>HTML</p>
+    <h1 class="fadeInDown sos">Skills</h1>
+     <div class="skills-wrapper two-columns">
+      <div class="skills-column fadeInUp sos delay-2">
+        <h2>Front-End</h2>
+        <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5 Icon">
+          <p>HTML</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3 Icon">
+          <p>CSS</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript Icon">
+          <p>JavaScript</p>
+           <span class="skill-status learning"><i>Learning</i></span>
+        </div>
       </div>
+    </div>
 
-      <div class="skill-card fadeInUp sos delay-2">
-        <img src="assets\css.svg">
-        <p>CSS</p>
+    <div class="skills-column fadeInDown sos delay-3">
+      <h2>Back-End</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL Icon">
+          <p>MySQL</p>
+           <span class="skill-status learning"><i>Learning</i></span>
+        </div>
       </div>
-
-      <div class="skill-card fadeInUp sos delay-3">
-        <img src="assets/javascript.svg">
-        <p>JavaScript</p>
+    </div>
+    <div class="skills-column fadeInUp sos delay-4">
+      <h2>Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code Icon">
+          <p>Visual Studio Code</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub Icon">
+          <p>GitHub</p>
+        </div>
       </div>
-
-      <div class="skill-card fadeInUp sos delay-3">
-        <img src="assets\github.svg">
-        <p>GitHub</p>
-      </div>
-
     </div>
   </div>
+</section>
+  </div>
+
 </section>  
   <section id="projects" class="section">
     <h2 class="fadeInDown sos">Projects</h2>
 </section>
-  <section id="contact" class="section">
-    <h2 class="fadeInDown sos">Contact</h2>
-     <p>Feel free to reach out to me through the form below or connect via social media.</p>
 
+  <section id="contact" class="section">
+  <div class="texts">
+    <h1 class="text-lg lg:text-xl font-semibold text-dark dark:text-white">
+      Thank you for coming this far!
+    </h1>
+    <h3 class="text-3xl lg:text-5xl font-bold mt-0 lg:mt-2 text-primary">
+      What can I do for you?
+    </h3>
+
+  <div id="connect" class="mt-10 contact-form">
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name">
+      <input type="email" id="email" name="email" placeholder="Your Email">
+      <textarea id="message" name="message" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+    <div class="contact-info mt-6 text-center">
+      <p>Email: <a href="mailto:cayabyabangel6363@gmail.com">cayabyabangel6363@gmail.com</a></p>
+      <div class="social-links mt-3">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/angel-cayabyab-634aaa386" target="_blank">LinkedIn</a>
+        <a href="https://facebook.com/@angelcorpuz17" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </div>
 </section>
 
   <footer>
