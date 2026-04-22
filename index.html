@@ -10,7 +10,7 @@
 <body>
 
 <header class="header">
-  <button class="logo-btn" onclick="location.href='index.html'">Angel</button>
+  <button class="logo-btn" onclick="location.href='index.html'">A</button>
 
   <nav class="nav" id="nav-menu">
     <a href="#home">Home</a>
@@ -78,13 +78,14 @@
       <div class="panel">
         <h3>Interests & Hobbies</h3>
         <p> I’m driven by the idea of turning challenges into opportunities and growing into the developer I want to become</p>
-      <p> When I’m not coding, I love spending time with my cats and dogs, play games, and read.</p>
+        <p> When I’m not coding, I love spending time with my cats and dogs, play games, and read.</p>
       </div>
 
       <div class="panel">
         <h3>Fun Fact</h3>
-       <p> A fun fact about me:</b>  I once thought web development wasn’t for me, but now it’s the path I’m most excited to learn and pursue</p>
+        <p> A fun fact about me:</b>  I once thought web development wasn’t for me, but now it’s the path I’m most excited to learn and pursue</p>
         <p>My personal motto is: “People will judge you anyway, so do what you want.”</p>
+      
       </div>
     </div>
   </div>
@@ -93,8 +94,9 @@
 
   <section id="skills" class="section">
     <h1 class="fadeInDown sos">Skills</h1>
-     <div class="skills-wrapper two-columns">
-      <div class="skills-column fadeInUp sos delay-2">
+    <div class="skills-wrapper two-columns">
+
+    <div class="skills-column fadeInUp sos delay-2">
         <h2>Front-End</h2>
         <div class="skills-grid">
         <div class="skill-card">
@@ -120,9 +122,11 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL Icon">
           <p>MySQL</p>
            <span class="skill-status learning"><i>Learning</i></span>
+
         </div>
       </div>
     </div>
+
     <div class="skills-column fadeInUp sos delay-4">
       <h2>Tools</h2>
       <div class="skills-grid">
@@ -138,45 +142,58 @@
     </div>
   </div>
 </section>
-  </div>
+</div>
 
 </section>  
-  <section id="projects" class="section">
-    <h2 class="fadeInDown sos">Projects</h2>
-</section>
+ <section id="projects" class="projects-section">
+    <h1>My Projects</h1>
+  <div class="filter-buttons fadeInUp sos delay-3">
+    <button data-filter="all">All</button>
+    <button data-filter="htmlcss"></button>
+    <button data-filter="javascript"></button>
+    <button data-filter="responsive"></button>
+  </div>
 
-  <section id="contact" class="section">
-  <div class="texts">
-    <h1 class="text-lg lg:text-xl font-semibold text-dark dark:text-white">
-      Thank you for coming this far!
-    </h1>
-    <h3 class="text-3xl lg:text-5xl font-bold mt-0 lg:mt-2 text-primary">
-      What can I do for you?
-    </h3>
-
-  <div id="connect" class="mt-10 contact-form">
-    <form id="contactForm">
-      <input type="text" id="name" name="name" placeholder="Your Name">
-      <input type="email" id="email" name="email" placeholder="Your Email">
-      <textarea id="message" name="message" placeholder="Your Message"></textarea>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+  <div class="projects-grid fadeInUp sos delay-4">
+    <div class="project-card" data-category="htmlcss">
+      <h2>Portfolio Website</h2>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+    </div>
     
-    <div class="contact-info mt-6 text-center">
-      <p>Email: <a href="mailto:cayabyabangel6363@gmail.com">cayabyabangel6363@gmail.com</a></p>
-      <div class="social-links mt-3">
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/angel-cayabyab-634aaa386" target="_blank">LinkedIn</a>
-        <a href="https://facebook.com/@angelcorpuz17" target="_blank">Facebook</a>
-      </div>
+    <div class="project-card" data-category="javascript">
+    </div>
+    <div class="project-card" data-category="responsive">
     </div>
   </div>
 </section>
 
-  <footer>
-    <p>© 2026 Angel</p>
-    <a href="Angel_Cayabyab_resume 1.2.pdf" class="resume-btn" download>Download My Resume</a>
-</footer>
+  <section id="contact" class="contact-section fadeInUp sos delay-3">
+    <h1>What can i do for you?</h1>
+    <p>Drop a message to brighten my day</p>
 
+  <form id="contactForm" class="contact-form fadeInUp sos delay-4">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Some Sunshine</button>
+  </form>
+
+  <div class="contact-info fadeInUp sos delay-5">
+    <p>Email: <a href="mailto:cayabyabangel6363@gmail.com">cayabyabangel6363@gmail.com</a></p>
+  </div>
+
+<footer>
+    <p>Made with sunlight by Angel | © 2026</p>
+    <div class="social-icons">  
+    <a href="https://github.com/gilcrpz" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/angel-cayabyab-634aaa386" target="_blank">LinkedIn</a>
+    <a href="https://www.facebook.com/@angelcorpuz17" target="_blank">Facebook</a>
+    </div>
+    <div class="resume-btn">
+      <a href="Angel_Cayabyab_resume 1.2.pdf" target="_blank">Download Resume</a>
+
+    </div>
+  </footer>
+</section>
 </body>
 </html>
